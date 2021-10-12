@@ -10,6 +10,11 @@
     <name>Demo DropWizard Application</name>
 
     <properties>
+         <maven.compiler.source>1.8</maven.compiler.source>
+         <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+    <properties>
         <dropwizard.version>0.9.2</dropwizard.version>
     </properties>
 
