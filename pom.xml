@@ -88,8 +88,7 @@
                     <excludedGroups>com.dduportal.voxxed2016lu.demoapp.test.IntegrationTest</excludedGroups>
                 </configuration>
             </plugin>
-                 <plugin>            
-<plugins>
+
 		
 		<plugin>
 			<groupId>org.apache.maven.plugins</groupId>
@@ -100,7 +99,7 @@
 			</configuration>
 		</plugin>
 		
-	</plugins>
+	
                  
             <plugin>
                 <artifactId>maven-failsafe-plugin</artifactId>
