@@ -88,6 +88,14 @@
                     <excludedGroups>com.dduportal.voxxed2016lu.demoapp.test.IntegrationTest</excludedGroups>
                 </configuration>
             </plugin>
+                 <plugin>            
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-war-plugin</artifactId>
+  <configuration>
+    <webXml>src\main\webapp\WEB-INF\web.xml</webXml>        
+  </configuration>
+</plugin>
+                 
             <plugin>
                 <artifactId>maven-failsafe-plugin</artifactId>
                 <configuration>
